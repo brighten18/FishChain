@@ -1,0 +1,72 @@
+# ==========================================
+# .gitignore untuk proyek Unity 3D
+# Letakkan di root folder proyek Unity
+# ==========================================
+
+# Folder cache dan sementara Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+
+# File meta data aset hanya diabaikan jika asetnya juga diabaikan
+!/[Aa]ssets/**/*.meta
+
+# JetBrains Rider plugin yang digenerate otomatis
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Folder cache Visual Studio
+.vs/
+
+# Folder cache Gradle
+.gradle/
+
+# File solusi dan proyek yang digenerate otomatis
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# File meta yang digenerate Unity
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# File crash report Unity
+sysinfo.txt
+
+# Hasil build
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# File yang digenerate Crashlytics
+crashlytics-build.properties
+
+# Addressables yang sudah dipaket
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Aset Android yang digenerate otomatis
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# File sistem operasi
+.DS_Store
+Thumbs.db

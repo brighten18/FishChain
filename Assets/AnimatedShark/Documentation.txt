@@ -1,0 +1,26 @@
+Animated Shark v1.0:
+
+To upgrade to HDRP or URP:
+Use the built in materials upgrader, first select all materials in the "Materials" folder, then in the drop-downs use:
+HDRP: Edit> Rendering> Materials> Upgrade Selected Built-in Materials to HDRP
+URP: Edit> Render Pipeline> Universal Render Pipeline> Upgrade Selected Materials to UniversalRP Materials
+
+Animations: 
+Asset comes with 1 animation controller, and 2 clips, of swimming to suit your needs. 
+The "AnimationScript" found in "Scripts" controls the animation controller.
+The animation controller are in "AnimationControllers" folder. 
+You can find the clips on the model in the "Model" folder.
+
+Materials and Textures:
+Materials are found in the "Materials" folder while textures are in the "Textures" folder.
+There are 4 textures and 7 materials total.
+
+Demo Scene:
+Found in the "DemoScene" folder.
+Displays the model with materials added.
+Click the top left buttons to test the animations!
+
+Scripts:
+Scripts can be found in the "Scripts" folder. 
+The AnimationScript.cs controlls animations. (Attached to AminmationScript Object)
+The CameraPan.cs controlls the camera pan (Attached to Main Camera Object)
